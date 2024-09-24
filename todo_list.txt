@@ -1,0 +1,33 @@
+1) Create venv +
+2) Install requirements -
+    - django +
+    - djangorestframework +
+    - django-cors-headers +
+    - django-environ +
+    - django-jazzmin +
+    - pillow +
+    - ...
+3) Create project +
+4) Create app +
+5) Add rest_framework to installed apps +
+6) Set up corsheaders and env variables +
+7) Set up jazzmin for administration +
+8) Create models -
+    - Category +
+    - Product (Parent Class) +
+    - Clothing +
+    - ClothingImage +
+    - ...
+9) Create serializers -
+    - CategorySerializer +
+    - ClothingSerializer +
+    - ...
+10) Create views -
+    - CategoryView +
+    - ClothingView +
+    - ...
+11) Create urls -
+    - "/api/categories/" +
+    - "/api/clothings/" -
+    - ...
+12) Make config for media files +
