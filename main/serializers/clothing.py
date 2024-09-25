@@ -15,4 +15,16 @@ class ClothingSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Clothing
-        fields = '__all__'
+        fields = (
+            'id',
+            'name',
+            'made_in',
+            'description',
+            'price',
+            'category',
+            'size',
+            'color',
+            'images',
+            'created_at',
+            'updated_at',
+        )

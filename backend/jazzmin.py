@@ -54,7 +54,10 @@ JAZZMIN_SETTINGS = {
     'icons': {
         'auth': 'fas fa-users-cog',
         'auth.User': 'fas fa-user',
-        'auth.Group': 'fas fa-users'
+        'auth.Group': 'fas fa-users',
+        'main.Category': 'fas fa-solid fa-list',
+        'main.Clothing': 'fas fa-solid fa-vest',
+        'main.ClothingImage': 'fas fa-solid fa-image',
     },
 
     'default_icon_parents': 'fas fa-chevron-circle-right',

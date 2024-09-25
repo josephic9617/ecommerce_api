@@ -6,6 +6,7 @@
     - django-environ +
     - django-jazzmin +
     - pillow +
+    - django-filter +
     - ...
 3) Create project +
 4) Create app +
@@ -28,6 +29,28 @@
     - ...
 11) Create urls -
     - "/api/categories/" +
-    - "/api/clothings/" -
+    - "/api/clothings/" +
     - ...
-12) Make config for media files +
+12) Create Admin Models and register them -
+    - CategoryAdmin +
+    - ClothingAdmin +
+    - ClothingImageAdmin +
+    - ...
+13) Create Filters -
+    - CategoryFilter +
+    - ClothingFilter +
+    - ...
+14) Create Paginations -
+    - Clothing
+    - ...
+14) Add search input to models -
+    - Category +
+    - Clothing +
+    - ClothingImage +
+    - ...
+15) Add filter feature to models -
+    - Category +
+    - Clothing +
+    - ClothingImage +
+    - ...
+14) Make config for media files +

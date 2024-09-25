@@ -17,9 +17,9 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = 'django-insecure-@9+dy*k&b%-6s%s^j*#xw)0y%idcww=l56n1e+c6z)ia(y-if^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [env('ALLOWED_HOST1'), env('ALLOWED_HOST2'), 'localhost']
+ALLOWED_HOSTS = [env('ALLOWED_HOST1'), env('ALLOWED_HOST2')]
 
 
 API_URL = env('API_URL')
@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
+    'django_filters',
     'rest_framework',
     'corsheaders',
     'main',
